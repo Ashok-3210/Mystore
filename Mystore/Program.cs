@@ -11,7 +11,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 app.UseStaticFiles();
-app.UseMvc();
+
 app.UseRouting();
 
 app.UseAuthorization();
