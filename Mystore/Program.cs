@@ -8,13 +8,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/hari");
 }
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
+
 
 app.MapRazorPages();
 
